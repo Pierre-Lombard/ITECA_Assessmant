@@ -20,5 +20,22 @@
             <li><a href="aboutUs.html">About us</a></li>
         </ul>
     </nav>
+
+    <fieldset class = "products-container">
+        <div class="product-header">
+            <h5 class="product-title">Product</h5>
+            <h5 class="price">Price</h5>
+            <h5 class="quantity">Quantity</h5>
+            <h5 class="total">Total</h5>
+        </div>
+
+        <div class="products">
+
+        </div>
+    </fieldset>
+
+    
 </body>
+
+<script src = "main.js"></script>
 </html>

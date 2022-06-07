@@ -147,5 +147,57 @@ fieldset{
     transition: all 0.3s ease-in-out;
 }
 
+/*-------------------CART PAGE--------------------------*/
 
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #d4a373;
+    margin: 0 auto;
+}
+.product-title{
+    width: 45%;
+}
+
+.price{
+    width: 15%;
+}
+.quantity{
+    width:  30%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalContainer{
+    width: 30%;
+}
+.basketTotal{
+    width:10%;
+}
 
