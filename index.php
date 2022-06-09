@@ -20,6 +20,7 @@
             <li><a href="Resources/products.php">Products</a></li>
             <li><a href="Resources/cart.php">Cart</a></li>
             <li><a href="Resources/aboutUs.html">About us</a></li>
+            <li><a href="Resources/login.php">Sign Up</a></li>
         </ul>
     </nav>
 

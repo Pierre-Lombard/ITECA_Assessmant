@@ -12,11 +12,11 @@
     <link rel="shortcut icon" href="images/logo2.png">
 </head>
 <body>
-<nav>  
+    <nav>  
         <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="products.php">Products</a></li>
-            <li><a href="#">Cart</a></li>
+            <li><a href="#">Cart<ion-icon name="cart-outline"></ion-icon></a></li>
             <li><a href="aboutUs.html">About us</a></li>
         </ul>
     </nav>
@@ -32,9 +32,13 @@
         <div class="products">
 
         </div>
+
+        <form action="check-out.php">
+            <input type="submit" value="Go to check out">
+        </form>
     </fieldset>
 
-    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 
 <script src = "main.js"></script>
